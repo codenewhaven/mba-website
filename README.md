@@ -1,5 +1,8 @@
 How to build a website
 ---
+This is a basic exercise that you will enjoy. We can do more
+advanced stuff later, but we need to start somewhere.
+
 ## In Three Easy Steps
 
 Our goal today is to build a website. First, let's prove
@@ -104,11 +107,14 @@ HTML Help:
 - http://www.webmonkey.com/2010/02/html_cheatsheet/
 - http://www.w3schools.com/tags/
 
-## Challenge
+## Challenge 1.1
 
 - Edit the code in Fig 1.1 to display something with a new HTML tag
 - Change the title of the page
 - View the source of a popular web page and see if you can understand any of it
 
+## Challenge 1.2 (next lesson!)
 
-
+- Download the source code of this *GitHub repository*
+- Open the website/index.html page in your browser
+- Add your own page in the students directory, and a link in index.html
