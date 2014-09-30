@@ -74,7 +74,7 @@ HTML is based on the concept of *tags*. These are the things in brackets.
 are all HTML tags, and order is important, because every tag is *nested*
 within another. The `<body>` of the page belongs under the `<html>` of
 the page. Every tag represents an element, where the opening tag looks
-like `<html>` and the closing tag `</html>'.
+like `<html>` and the closing tag `</html>`.
 
 You can learn HTML in a single day, because it is very simple. There are
 only a few dozen different HTML elements, and once you learn them, you can
