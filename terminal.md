@@ -75,7 +75,7 @@ Exercises
 So, first off, we need to open up the Terminal application. You can do this by hitting Cmd+Space to open Spotlight, then typing in "terminal". Terminal should be one of the first applications that pops up. Select it and hit Enter to open the Terminal. When you open the terminal, you should see a `$` with a blinking cursor next to it. The `$` prompt means that the terminal is ready to accept commands.
 
 ### 2 - Where are we?
-Word. So now you should see a black window with a blinking cursor. It looks like something you'd see in a hacker movie, right? Anyway, let's orient ourselves. We can do this by entering the `pwd` command, which stands for "Print Working Directory". This will tell us which directory We run a command in the terminal by typing it then pressing Enter. So, type
+Word. So now you should see a black window with a blinking cursor. It looks like something you'd see in a hacker movie, right? Anyway, let's orient ourselves. We can do this by entering the `pwd` command, which stands for "Print Working Directory". This will tell us the absolute path of our current working directory. We run a command in the terminal by typing it then pressing Enter. So, type
 ````bash
 $ pwd
 ````
@@ -128,7 +128,8 @@ $ cd ..
 #### 5.4 - Root Directory: `/`
 
 
-### 6 - Characters To Avoid
+### 6 - Characters To Avoid in the Terminal
+  * Space: `' '`
 
 ### 7 - Helpful Commands
   * `cd` <directory_name>
