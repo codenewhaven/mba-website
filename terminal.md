@@ -37,15 +37,31 @@ js: fun.js
 html: index.html
 essays: boring.doc
 
+PATH EXAMPLES
+-------------
+/
+/Applications
+/Applications/Sublime\ Text\ 2.app
+/Users
+/Users/bob
+/Users/bob/code
+/Users/bob/code/js
+/Users/bob/code/js/fun.js
+/Users/bob/code/html/index.html
+/Users/bob/essays
+/Users/bob/essays/boring.doc
+
 (current directory denoted by "-->")
 ````
 Whenever we use the terminal, just like with Finder, we are "in" a specific folder. For instance, if we click on Finder and then Pictures, we are "in" the Pictures folder. We call this directory that we are "in" at any given point in time our current _working directory_. We can find our current working directory with the command `pwd`, which we'll talk about later.
 
-We locate files or directories in the file system using something called a _path_. A path is like a map: it tells us where to find something on our computer. Paths are a string of folders separated by forward-slashes (`/`). Usually, when we talk about paths, we talk about _relative paths_. Relative paths are _relative_ (depend on) what our working directory is at the moment. For instance, in Figure 1.1, our current working directory (denoted by "-->") is "code". The relative path of "fun.js" would therefore be "js/fun.js".
+Usually, we can tell the difference between files and directories by the presence/absence of a _file appendage_. Files have them, directories (for our purposes) don't. For example, we can tell that `fun.js` is a _javascript_ file by the `.js` file appendage. Similarly, we can tell that `code` is a folder because it has no file appendage.
 
-So, what if we change directories, and then try to use the same relative path? Will it work? Unfortunately not. Because relative paths depend on our current working directory, they only work if we stay in the same directory. To get around this, we use _absolute paths_
+We locate files or directories in the file system using something called a _path_. A path is like an address: it tells us where to find something on our computer. A path is a string of folders separated by forward-slashes (`/`). Usually, when we talk about paths, we talk about _relative paths_. Relative paths are _relative to_ (depend on) our working directory. For instance, in Figure 1.1, our current working directory (denoted by `-->`) is "code". The relative path of `fun.js` would therefore be `js/fun.js`. 
 
-An absolute path tells us exactly where a file or folder is relative to the root directory (`/`), no matter what our current working directory is at the moment. We'll talk more about the root directory later. Absolute paths always start with `/`, and mean the same thing no matter where our "current directory" is at the moment. 
+So, what if we change directories, and then try to use the same relative path? Will it work? Unfortunately not. Because relative paths depend on our current working directory, they only work if we stay in that same directory. To get around this, we use _absolute paths_.
+
+An absolute path tells us exactly where a file or folder is relative to the root directory (`/`), no matter what our working directory is at the moment. We'll talk more about the root directory later. Absolute paths always start with `/` and can be used anywhere on the file system. Absolute paths of all the files and folders in Figure 1.1 are provided.
 
 In the first exercise we are going to learn about some basic _commands_. Commands are how we tell the terminal (read: computer) what we want to do. We can tell when the terminal is ready to accept commands when we see a `$` with a blinking cursor next to it. The `$` is known as the _prompt_, which means that the terminal is ready to accept commands.
 
