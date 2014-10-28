@@ -19,6 +19,23 @@ Exercises
 ---------
 
 ### 1 - Clone a Repository
-`cd ~`
+````bash
+$ cd ~
+$ git clone git@github.com:codenewhaven/mba-website.git .i
+$ cd ~/codenewhaven/mba-website
+````
 
-`git clone git@github.com:codenewhaven/mba-website.git .`
+### 2 - Make a Commit
+````bash
+$ git commit -am "<whatever you want to say>"
+````
+
+### 3 - Tell Git Where to Send Code
+````bash
+$ git remote add origin git@github.com:codenewhaven/mba-website.git
+````
+
+### 4 - Send your code!
+````bash
+$ git push
+```` 
