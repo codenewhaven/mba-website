@@ -26,6 +26,7 @@ $ cd ~/codenewhaven/mba-website
 ````
 
 ### 2 - Make a Commit
+First, make a change to your code. After that, you're ready to make your first commit!
 ````bash
 $ git commit -am "<whatever you want to say>"
 ````
@@ -35,9 +36,8 @@ $ git commit -am "<whatever you want to say>"
 $ git remote -v
 origin  git@github.com:codenewhaven/mba-website.git (fetch)
 origin  git@github.com:codenewhaven/mba-website.git (push)
-
-^--(should output this)
 ````
+^--(should output this)
 
 ### 4 - Send your code!
 ````bash
