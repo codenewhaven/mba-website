@@ -30,9 +30,13 @@ $ cd ~/codenewhaven/mba-website
 $ git commit -am "<whatever you want to say>"
 ````
 
-### 3 - Tell Git Where to Send Code
+### 3 - Check Where Git Will Send Code
 ````bash
-$ git remote add origin git@github.com:codenewhaven/mba-website.git
+$ git remote -v
+origin  git@github.com:codenewhaven/mba-website.git (fetch)
+origin  git@github.com:codenewhaven/mba-website.git (push)
+
+^--(should output this)
 ````
 
 ### 4 - Send your code!
