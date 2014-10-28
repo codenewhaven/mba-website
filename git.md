@@ -18,7 +18,7 @@ Before we learn more about Git and all of its magical code management powers, we
 Exercises
 ---------
 
-###Exercise 1 Clone a Repository
-
+### 1 - Clone a Repository
 `cd ~`
+
 `git clone git@github.com:codenewhaven/mba-website.git .`
