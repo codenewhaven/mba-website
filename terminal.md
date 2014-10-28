@@ -137,5 +137,9 @@ $ cd ..
   * `mkdir` <folder_name>
   * `ls`
 
+### 8 - Helpful Resources
+  * [Apple's Command Line Primer][1]
 
 Congratulations! You should now know how to navigate the file system and use the terminal!
+
+[1](https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html)
