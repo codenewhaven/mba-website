@@ -1,5 +1,15 @@
 How to build a website
----
+
+New tutorial:
+
+[3d javascript in the browser](javascript.md)
+
+Other tutorials:
+
+[Using the terminal](terminal.md)
+
+[Using git (in progress)](git.md)
+
 This is a basic exercise that you will enjoy. We can do more
 advanced stuff later, but we need to start somewhere.
 
