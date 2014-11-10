@@ -11,6 +11,9 @@ var cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
 
+
+
+
 camera.position.z = 2;
 var render = function () {
    requestAnimationFrame(render);
@@ -19,6 +22,3 @@ var render = function () {
    cube.rotation.y += 0.1;
 
    renderer.render(scene, camera);
-};
-
-render();
