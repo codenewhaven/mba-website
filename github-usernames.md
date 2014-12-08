@@ -2,12 +2,12 @@
 
 
 ## Instructors ##
-|         Name          |   GitHub Username | Website                     |
-| --------------------- | ----------------- | ----------------------------|
-|   Will Childs-Klein   | willchilds-klein  | willchilds-klein.github.io  |
-|   Miles Richardson    | milesrichardson   | milesrichardson.github.io   |
-|   Lexi Signiorello    | alsignoriello     | alsignoriello.github.io     |
-|   Jon Cap             | joncap            | joncap.github.io            |
+|         Name          |   GitHub Username | Website                                                     |
+| --------------------- | ----------------- | ------------------------------------------------------------|
+|   Will Childs-Klein   | willchilds-klein  | willchilds-klein.github.io(willchilds-klein.github.io)      |
+|   Miles Richardson    | milesrichardson   | milesrichardson.github.io(milesrichardson.github.io)        |
+|   Lexi Signiorello    | alsignoriello     | alsignoriello.github.io(alsignoriello.github.io)            |
+|   Jon Cap             | joncap            | joncap.github.io(joncap.github.io)                          |
 
 
 ## Students ##
