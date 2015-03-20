@@ -113,6 +113,7 @@ cool things in the browser, using only Javascript.
 
 Make an HTML file for playing with, e.g. `scratch.html`. Put this in it:
 
+```html
     <!doctype html>
     <html lang="en">
     <head>
@@ -143,6 +144,7 @@ Make an HTML file for playing with, e.g. `scratch.html`. Put this in it:
        </script>
     </body>
     </html>
+```
 
 (Exampe from http://learn.jquery.com/javascript-101/getting-started/)
 
@@ -161,11 +163,13 @@ how to **respond to an event** -- in this case, clicking a button.
 
 Let's break down the code. The first interesting thing that happens is:
 
+```css
      <!-- CSS for presentation. -->
     <style>
     h1 { font-size: 14px; color: hotpink; }
     button { color: red; }
     </style>
+```
 
 This is *CSS* code. CSS stands for "cascading style sheets", and it's
 a language for telling the browser how to decide what elements on
@@ -193,6 +197,7 @@ element because it knows that the browser is aware of it.
 
 The Javascript code is everything in the `<script>...</script>` tag:
 
+```html
     <!-- JavaScript for interactivity. -->
     <script>
 
@@ -205,6 +210,7 @@ The Javascript code is everything in the `<script>...</script>` tag:
     }, false);
 
     </script>
+```
 
 When your browser sees the `<script>` tag, it knows the code is Javascript,
 not HTML. Javascript is a powerful programming language that can perform
@@ -270,6 +276,7 @@ what you see on your screen.
 
 Let's try something. Modify your `scratch.html` to look like this:
 
+```html
     <!doctype html>
     <html lang="en">
     <head>
@@ -286,6 +293,7 @@ Let's try something. Modify your `scratch.html` to look like this:
 
     </body>
     </html>
+```
 
 Notice we removed the CSS and Javascript code, and replaced
 it with links to the documents.
@@ -458,6 +466,7 @@ This tells the browser to "download the threes.js library from google", and then
 Obviously, we also need the `cubes.js` file. So, make a `cubes.js` file and
 put the following in it:
 
+```javascript
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
 
@@ -482,6 +491,7 @@ put the following in it:
     };
 
     render();
+```
 
 Now, you should have something in all of your files:
 
